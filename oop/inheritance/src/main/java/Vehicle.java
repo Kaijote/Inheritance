@@ -1,4 +1,6 @@
 public abstract class Vehicle {
 
-    public abstract void move();
+    public void move() {
+        System.out.println(this.getClass().getSimpleName() + " is moving");
+    }
 }

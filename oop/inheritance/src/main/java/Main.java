@@ -25,11 +25,33 @@ public class Main {
 //            }
 //        }
 
-        Sky sky = new Sky();
-        sky.addTraffic(new Duck());
-        sky.addTraffic(new Pigeon());
-        sky.addTraffic(new Aeroplane());
+//        Sky sky = new Sky();
+//        sky.addTraffic(new Duck());
+//        sky.addTraffic(new Pigeon());
+//        sky.addTraffic(new Aeroplane());
+//
+//        sky.checkTraffic();
 
-        sky.checkTraffic();
+//        Sky sky = new Sky();
+//        sky.addTraffic(new Duck());
+//        sky.addTraffic(new Pigeon());
+//        sky.addTraffic(new Aeroplane());
+//
+//        Water water = new Water();
+//        water.addTraffic(new Duck());
+//        water.addTraffic(new Fish());
+//
+//        List<Environment<?>> environments = List.of(sky, water);
+//
+//        for (Environment<?> environment: environments) {
+//            environment.checkTraffic();
+//        }
+        Car car = new Car();
+        car.move();
+        Van van = new Van();
+        van.move();
+        Lorry lorry = new Lorry();
+        lorry.move();
+
     }
 }

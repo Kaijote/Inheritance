@@ -1,6 +1,6 @@
-public class Car extends Vehicle{
+public class Car extends Vehicle implements Driveable{
 
-    public void move() {
-        System.out.println("Car is moving");
-    }
+//    public void move() {
+//        System.out.println("Car is moving");
+//    }
 }
